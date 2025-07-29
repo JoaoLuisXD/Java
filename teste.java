@@ -1,4 +1,3 @@
-package src;
 import java.util.Locale;
 public class teste {
     
