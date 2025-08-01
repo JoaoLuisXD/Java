@@ -1,4 +1,4 @@
-package src;
+package entrada_de_dados;
 
 import java.util.Locale;
 import java.util.Scanner;
