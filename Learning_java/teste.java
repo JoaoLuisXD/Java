@@ -31,6 +31,8 @@ public class teste {
         System.out.println(nome);
         
         System.out.printf("\nMeu nome e: %s\nTenho: %d anos\nE minha altura e: %.2f\n", nome,x,w);
+
+        //teste
         
     }
 
