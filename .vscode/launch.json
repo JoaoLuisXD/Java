@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "exercicio_entrada_dados5",
+      "request": "launch",
+      "mainClass": "Data_input.exercicio_entrada_dados5",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "exercicio_entrada_dados4",
+      "request": "launch",
+      "mainClass": "Data_input.exercicio_entrada_dados4",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "exercicio_entrada_dados3",
       "request": "launch",
       "mainClass": "Data_input.exercicio_entrada_dados3",
