@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "conditional_exercise3",
+      "request": "launch",
+      "mainClass": "Conditional_structs.conditional_exercise3",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "conditional_exercise2",
+      "request": "launch",
+      "mainClass": "Conditional_structs.conditional_exercise2",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "conditional_exercise1",
+      "request": "launch",
+      "mainClass": "Conditional_structs.conditional_exercise1",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "exercicio_entrada_dados6",
       "request": "launch",
       "mainClass": "Data_input.exercicio_entrada_dados6",
