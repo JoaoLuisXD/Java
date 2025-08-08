@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "exercise_looping3",
+      "request": "launch",
+      "mainClass": "Looping_structs.exercise_looping3",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "exercise_looping2",
       "request": "launch",
       "mainClass": "Looping_structs.exercise_looping2",
