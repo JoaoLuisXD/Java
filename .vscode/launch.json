@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "exercise_looping2",
+      "request": "launch",
+      "mainClass": "Looping_structs.exercise_looping2",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "exercise_looping1",
+      "request": "launch",
+      "mainClass": "Looping_structs.exercise_looping1",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "conditional_exercise3",
       "request": "launch",
       "mainClass": "Conditional_structs.conditional_exercise3",
