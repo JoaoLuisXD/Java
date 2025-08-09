@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bitwise_operators",
+      "request": "launch",
+      "mainClass": "Learning_java.bitwise_operators",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "exercise_looping3",
       "request": "launch",
       "mainClass": "Looping_structs.exercise_looping3",
