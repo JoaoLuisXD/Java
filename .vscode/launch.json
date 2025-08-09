@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Strings_functions",
+      "request": "launch",
+      "mainClass": "String_functions.Strings_functions",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "bitwise_operators",
       "request": "launch",
       "mainClass": "Learning_java.bitwise_operators",
