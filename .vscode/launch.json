@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "First_function",
+      "request": "launch",
+      "mainClass": "Learning_functions.First_function",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "Strings_functions",
       "request": "launch",
       "mainClass": "String_functions.Strings_functions",
