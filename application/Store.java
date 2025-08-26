@@ -16,7 +16,7 @@ public class Store {
         System.out.print("Enter the quantity in stock: ");
         item.quantity = sc.nextInt();
         
-        item.PrintProductData();
+        /* item.PrintProductData();
         System.out.println("Total price: " + item.TotalPrice());
 
         System.out.print("Enter the number of products to be add in stock: ");
@@ -31,7 +31,9 @@ public class Store {
 
         item.RemoveStock();
         item.PrintProductData();
-        System.out.println("New price: " + item.TotalPrice());
+        System.out.println("New price: " + item.TotalPrice()); */
+
+        System.out.println(item);
 
         sc.close();
     }

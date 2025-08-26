@@ -22,4 +22,13 @@ public class Products {
     public int RemoveStock(){
         return quantity -= remove;
     }
+    public String toString(){
+        return name
+        + ", $"
+        + price
+        + ", "
+        + quantity
+        + " units, Total: $ "
+        + TotalPrice();
+    }
 }
