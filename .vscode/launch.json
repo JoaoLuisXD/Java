@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Store",
+      "request": "launch",
+      "mainClass": "application.Store",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "Program",
+      "request": "launch",
+      "mainClass": "application.Program",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "First_function",
       "request": "launch",
       "mainClass": "Learning_functions.First_function",
