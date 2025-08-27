@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EmployeeExercise",
+      "request": "launch",
+      "mainClass": "application.EmployeeExercise",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "Employee",
+      "request": "launch",
+      "mainClass": "application.Employee",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "RectangleExercise",
+      "request": "launch",
+      "mainClass": "application.RectangleExercise",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "Store",
       "request": "launch",
       "mainClass": "application.Store",

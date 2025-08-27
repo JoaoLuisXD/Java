@@ -16,25 +16,18 @@ public class Store {
         System.out.print("Enter the quantity in stock: ");
         item.quantity = sc.nextInt();
         
-        /* item.PrintProductData();
-        System.out.println("Total price: " + item.TotalPrice());
+        System.out.println(item);
 
         System.out.print("Enter the number of products to be add in stock: ");
         item.plus = sc.nextInt();
-
         item.UpdateStock();
-        item.PrintProductData();
-        System.out.println("New price: " + item.TotalPrice());
-
+        System.out.println("Updated: " + item);
+        
         System.out.print("Enter the number of products to be remove from stock: ");
         item.remove = sc.nextInt();
-
         item.RemoveStock();
-        item.PrintProductData();
-        System.out.println("New price: " + item.TotalPrice()); */
 
-        System.out.println(item);
-
+        System.out.println("Updated: " + item);
         sc.close();
     }
 }
