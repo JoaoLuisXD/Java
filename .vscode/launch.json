@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ConverterExercise",
+      "request": "launch",
+      "mainClass": "application.ConverterExercise",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "StudentExercise",
       "request": "launch",
       "mainClass": "application.StudentExercise",
