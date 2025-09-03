@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "primo",
+      "request": "launch",
+      "mainClass": "primo",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "ConverterExercise",
       "request": "launch",
       "mainClass": "application.ConverterExercise",
