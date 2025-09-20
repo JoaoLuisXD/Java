@@ -8,24 +8,25 @@ public class Store {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Products item = new Products();
         System.out.print("Enter the name of the product: ");
-        item.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.print("Enter the price: ");
-        item.price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.print("Enter the quantity in stock: ");
-        item.quantity = sc.nextInt();
+        int quantity = sc.nextInt();
+
+        Products item = new Products(name, price, quantity);
         
         System.out.println(item);
 
         System.out.print("Enter the number of products to be add in stock: ");
-        item.plus = sc.nextInt();
-        item.UpdateStock();
+        quantity = sc.nextInt();
+        item.UpdateStock(quantity);
         System.out.println("Updated: " + item);
         
         System.out.print("Enter the number of products to be remove from stock: ");
-        item.remove = sc.nextInt();
-        item.RemoveStock();
+        quantity = sc.nextInt();
+        item.RemoveStock(quantity);
 
         System.out.println("Updated: " + item);
         sc.close();
