@@ -4,8 +4,13 @@ public class Products {
     public String name;
     public double price;
     public int quantity;
-    public int plus;
-    public int remove;
+
+    public Products(String name, double price, int quantity)
+    {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
 
     public void PrintProductData(){
         System.out.println("Product: " + name);
@@ -16,11 +21,11 @@ public class Products {
     public double TotalPrice(){
         return price * quantity;
     }
-    public double UpdateStock(){
-        return quantity += plus;
+    public double UpdateStock(int quantity){
+        return this.quantity += quantity;
     }
-    public int RemoveStock(){
-        return quantity -= remove;
+    public int RemoveStock(int quantity){
+        return this.quantity -= quantity;
     }
     public String toString(){
         return name
