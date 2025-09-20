@@ -12,15 +12,24 @@ public class Store {
         String name = sc.nextLine();
         System.out.print("Enter the price: ");
         double price = sc.nextDouble();
-        System.out.print("Enter the quantity in stock: ");
-        int quantity = sc.nextInt();
-
-        Products item = new Products(name, price, quantity);
         
+        Products item = new Products(name, price);
+
+        // TESTING PRIVATE CALLS
+
+        /* item.setName("computer");
+        System.out.println("new name: " + item.getName());
+
+        item.setPrice(1200);
+        System.out.println("new price: " + item.getPrice());
+        
+        System.out.println("quantity in stock: " + item.getQuantity());
+        */
+
         System.out.println(item);
 
         System.out.print("Enter the number of products to be add in stock: ");
-        quantity = sc.nextInt();
+        int quantity = sc.nextInt();
         item.UpdateStock(quantity);
         System.out.println("Updated: " + item);
         

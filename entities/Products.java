@@ -1,9 +1,11 @@
 package entities;
 
 public class Products {
-    public String name;
-    public double price;
-    public int quantity;
+    private String name;
+    private double price;
+    private int quantity;
+
+    public Products(){}
 
     public Products(String name, double price, int quantity)
     {
@@ -11,6 +13,41 @@ public class Products {
         this.price = price;
         this.quantity = quantity;
     }
+
+    public Products(String name, double price)
+    {
+        this.name = name;
+        this.price = price;
+    }
+    
+    // get/set (name)
+    public String getName()
+    {
+        return name;
+    }
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    // get/set (price)
+    public double getPrice()
+    {
+        return price;
+    }
+    public void setPrice(double price)
+    {
+        this.price = price;
+    }
+
+    // get quantity
+
+    public int getQuantity()
+    {
+        return quantity;
+    }
+
+
 
     public void PrintProductData(){
         System.out.println("Product: " + name);
