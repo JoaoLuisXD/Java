@@ -5,11 +5,17 @@ public class Bank {
     private String name;
     private double value;
     
-    public Bank (String numberAccount, String name, double value)
+    public Bank (String numberAccount, String name, double initialDeposit   )
     {
         this.numberAccount = numberAccount;
         this.name = name;
-        this.value = value;
+        depositAccount(initialDeposit);
+    }
+
+    public Bank (String numberAccount, String name)
+    {
+        this.numberAccount = numberAccount;
+        this.name = name;
     }
     
     public String getNumberAccount()
@@ -40,6 +46,11 @@ public class Bank {
     public void withDrawAccount(double value)
     {
         this.value -= (value + 5);
+    }
+
+    public void accountData()
+    {
+        System.out.print("Account " + getNumberAccount() + ", Holder: " + getName() + ", Balance: $ " + getValue());
     }
 
 }

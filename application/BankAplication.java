@@ -7,6 +7,7 @@ import entities.Bank;
 public class BankAplication {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Bank account;
 
         System.out.print("Enter account number: ");
         String accountNumber = sc.nextLine();
@@ -18,16 +19,18 @@ public class BankAplication {
         if (choose == 'y' || choose == 'Y') 
         {
             System.out.print("Enter initial deposit value: ");
-            value = sc.nextDouble(); 
+            value = sc.nextDouble();
+            account = new Bank(accountNumber, name, value);
             
         }
-        else if (choose == 'n' || choose == 'N') value = 0;
-        Bank account = new Bank(accountNumber, name, value);
+        else 
+        {
+            account = new Bank(accountNumber, name);
+        }
         System.out.println();
 
         System.out.println("Account data: ");
-        System.out.print("Account " + account.getNumberAccount() + ", Holder: " + account.getName() + ", Balance: $ " + account.getValue());
-        
+        account.accountData();        
 
         System.out.println();
         System.out.print("Enter a deposit value: ");
