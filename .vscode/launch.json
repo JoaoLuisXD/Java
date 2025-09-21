@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BankAplication",
+      "request": "launch",
+      "mainClass": "application.BankAplication",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "primo",
       "request": "launch",
       "mainClass": "primo",
