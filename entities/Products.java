@@ -48,7 +48,6 @@ public class Products {
     }
 
 
-
     public void PrintProductData(){
         System.out.println("Product: " + name);
         System.out.println("Units: " + quantity);
