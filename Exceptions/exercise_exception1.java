@@ -1,0 +1,40 @@
+package Exceptions;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class exercise_exception1 {
+    public static void main(String[] args) {
+        method1();
+        System.out.println("End of Program");
+    }
+    public static void method1(){
+        System.out.println("---METHOD 1 START---");
+        method2();
+        System.out.println("---METHOD 1 START---");
+    }
+
+    public static void method2(){
+        System.out.println("---METHOD 2 START---");
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            String[] vet = sc.nextLine().split(" ");
+            int position = sc.nextInt();
+            System.out.println(vet[position]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid Position!");
+            e.printStackTrace();
+        } catch(InputMismatchException e){
+            System.out.println("Input error");
+            e.printStackTrace();
+        }
+        finally{
+            System.out.println("Done!");
+        }
+        
+        sc.close();
+        System.out.println("---METHOD 2 END---");
+    }
+
+}
