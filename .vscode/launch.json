@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "exercise3_vectors",
+      "request": "launch",
+      "mainClass": "Vectors.exercise3_vectors",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "exercise2_vectors",
+      "request": "launch",
+      "mainClass": "Vectors.exercise2_vectors",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "exercise1_vectors",
+      "request": "launch",
+      "mainClass": "Vectors.exercise1_vectors",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "Main_Reservation",
       "request": "launch",
       "mainClass": "Exceptions.Main_Reservation",
