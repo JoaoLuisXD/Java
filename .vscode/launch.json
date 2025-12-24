@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "exercise4_vectors",
+      "request": "launch",
+      "mainClass": "Vectors.exercise4_vectors",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "exercise3_vectors",
       "request": "launch",
       "mainClass": "Vectors.exercise3_vectors",
