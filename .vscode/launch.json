@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "learningDate",
+      "request": "launch",
+      "mainClass": "Date.learningDate",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "exercise1_matriz",
       "request": "launch",
       "mainClass": "Matriz.exercise1_matriz",
