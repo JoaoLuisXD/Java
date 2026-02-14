@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "formats",
+      "request": "launch",
+      "mainClass": "Date.formats",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
       "name": "learningDate",
       "request": "launch",
       "mainClass": "Date.learningDate",
