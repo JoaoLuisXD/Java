@@ -5,6 +5,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "Inheritance.Overhide.Main",
+      "projectName": "Java_b58936e4"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "Inheritance.Casting.Main",
       "projectName": "Java_b58936e4"
     },
