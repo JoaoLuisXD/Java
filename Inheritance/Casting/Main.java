@@ -15,13 +15,13 @@ public class Main {
 
         // DOWNCASTING
 
-        if (acc3 instanceof SavingsAccount) { // verify
+        if (acc3 instanceof SavingsAccount) { // verify instance
             SavingsAccount acc7 = (SavingsAccount)acc3; // casting
             acc7.uptadeBalance();
             System.out.println("UPDATED");
         }
 
-        if(acc1 instanceof BusinessAccount){ // verify
+        if(acc1 instanceof BusinessAccount){ // verify instance
             BusinessAccount acc8 = (BusinessAccount)acc1; // casting
             acc8.loan(100.0);
             System.out.println("LOAN");
